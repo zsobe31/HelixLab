@@ -1,0 +1,53 @@
+/* általános formázás */
+* {
+	font-size: 18pt;
+	font-family: Roboto;
+	font-style: italic;
+}
+
+/* cím formázása */
+h1 {
+	text-align: center;
+	padding: 25px;
+	font-size: 30pt;
+	font-style: normal;
+}
+
+/* div elemek formázása */
+div {
+	width: 100%;
+}
+
+/* képek formázása */
+img {
+	border: 2px solid darkgray;
+	border-radius: 50%;
+	padding: 20px;
+	margin-right: 20px;
+	float: left;
+	height: 200px;
+}
+
+/* szöveg formázása */
+.leiras {
+	text-align: left;
+}
+
+/* hivatkozás formázása */
+a {
+	text-decoration: none;
+}
+
+a img:hover {
+	opacity: 0.5;
+}
+
+/* lábléc formázása */
+footer h4 {
+	text-align: center;
+	font-size: 14pt;
+	font-style: normal;
+}
+
+
+
