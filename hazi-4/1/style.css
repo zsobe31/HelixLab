@@ -1,0 +1,47 @@
+#zsolt img {
+	width: 200px;
+	height: 200px;
+	border: 2px solid black;
+	border-radius: 50%;
+}
+
+#tomb {
+	width: 650px;
+	height: 200px;
+	padding: 50px;
+}
+
+#zsolt {
+	float: left;
+	margin-right: 20px;
+}
+
+#lista {
+	float: left;
+	margin-right: 20px;
+}
+
+#macko {
+	float: left;
+	text-align: center;
+}
+
+#macko img {
+	border: 0;
+	width: 200px;
+	height: 200px;
+}
+
+#macko p {
+	position: relative;
+	bottom: 30px;
+}
+
+div {
+	text-align: justify;
+}
+
+img {
+	display: block;
+}
+
