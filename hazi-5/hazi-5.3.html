@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title>hazi-5.3</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+
+		<style type="text/css">
+			
+			body, html {
+			    height: 100%;
+			    margin: 0;
+			  	font-family: 'Raleway', sans-serif;		
+			}
+
+			.background {
+			    /* The image used */
+				background: linear-gradient(
+		      		rgba(0, 0, 0, 0.5),
+		      		rgba(0, 0, 0, 0.5)
+		    	), url('road.jpg');
+		    	
+			    /* Full height */
+			    height: 100%; 
+
+			    /* Center and scale the image nicely */
+			    background-position: center;
+			    background-repeat: no-repeat;
+			    background-size: cover;
+			}
+
+			.doboz {
+				position: absolute;
+				top: 40%;
+				left: 5%;
+				color: white;
+			}
+			
+			.doboz h1 {
+				font-size: 3.5rem;
+			}
+			
+			.gomb1, .gomb2 {
+				padding: 0.8rem 1.7rem;
+				font-size: 1rem;
+				border-radius: 25px;
+				border: 1px solid #e67e22;
+			}
+			
+			.gomb1 {
+				color: white;
+				background-color: #e67e22;
+			}
+			
+			.gomb2 {
+				background-color: rgba(0,0,0,0);
+				color: #e67e22;
+				margin-left: 1rem;
+			}
+			
+			.gomb1:hover {
+				background-color: #cf6d17;
+			}
+			
+			.gomb2:hover {
+				background-color: #cf6d17;
+				color: white;
+			}
+
+			.nav {
+				position: absolute;
+				top: 5%;
+				right: 5%;
+			}
+			
+			ul li {
+				display: inline;
+				list-style-type: none;
+				color: white;
+				text-transform: uppercase;
+				padding: 0 1rem;
+				font-size: 1.2rem;
+			}
+			
+			a {
+				color: white;
+				text-decoration: none;
+				padding-bottom: 0.5rem;
+			}
+			
+			a:hover {
+				border-bottom: 2px solid #e67e22;
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+
+		<div class="background">
+			
+			<div class="doboz">
+
+				<h1>Goodbye boring<br>Hello crazy adventures</h1>
+				<button class="gomb1">I'm fired up!</button>
+				<button class="gomb2">Show me more</button>
+
+			</div>
+
+			<div class="nav">
+
+				<ul>
+
+					<li><a href="#">home</a></li>
+					<li><a href="#">about</a></li>
+					<li><a href="#">our cities</a></li>
+					<li><a href="#">sign up</a></li>
+
+				</ul>
+
+			</div>
+
+		</div>
+
+	</body>
+
+</html>
+
+
+
