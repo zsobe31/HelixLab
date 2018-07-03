@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Bootstrap házi-1</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	</head>
+	<body>
+		<div class="container">
+			<h2>Első container:</h2>
+			<p>Fix 400px magassággal és 900 px szélességgel, háttérszínt: #ffcaa8.<br>Csinálj egy sort 3 egyenlő col-ra osztva. A 3 col a containeren belül pontosan középen kell, 
+			hogy elhelyezkedjen!<br>Legyenek színesek ezek a divek.</p>
+			<div class="container my-3" style="width: 900px; height: 400px; background-color: #ffcaa8;">
+				<div class="row h-100 justify-content-center">
+					<div class="col-2 bg-primary my-auto">1</div>
+					<div class="col-2 bg-success my-auto">2</div>
+					<div class="col-2 bg-danger my-auto">3</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<h2>Második container:</h2>
+			<p>Csinálj egy másik containert is azonos beállításokkal, mint az előző.<br>Ebben pedig az alábbi kép szerint állítsd be a div-eket.<br>https://drive.google.com/open?id=1BW72RQ-9Qb5adwvKg5DA7qsItOyhROex</p>
+			<div class="container-fluid my-3" style="width: 900px; height: 400px; background-color: #ffcaa8;">
+				<div class="row">
+					<div class="col">&nbsp;</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 border border-dark">.col-md-4</div>
+					<div class="col-md-4"></div>
+					<div class="col-md-4 border border-dark">.col-md-4</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3"></div>
+					<div class="col-md-3 border border-dark">.col-md-3</div>
+					<div class="col-md-3"></div>
+					<div class="col-md-3 border border-dark">.col-md-3</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3"></div>
+					<div class="col-md-6 border border-dark">.col-md-6</div>
+					<div class="col-md-3"></div>
+				</div>
+			</div>
+		</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	</body>
+</html>
