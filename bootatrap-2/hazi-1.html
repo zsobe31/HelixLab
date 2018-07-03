@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>bootstrap-hazi-2</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	</head>
+	<body>
+
+		<!-- első feladat kezdete -->
+		<div class="jumbotron">
+			<div class="container-fluid">
+				<div class="container">
+					<h2 class="h2 text-center mb-3">Bootstrap II. házifeladat!</h2>
+					<h3>Feladat:</h3>
+					<p class="mb-5 text-justify">Egy jumbotront kell készíteni, melybe el kell helyezni 2 cardot egymas mellett a következők szerint: 
+					első card 4 hely, 4 hely kimarad, második card 4 hely. A card formázása: A bal oldaliban a kép felül található, a card-nak van header, body es 
+					footer része is. A jobb oldali cardon a kép alul található, csak footer es body része van. A témaja bármi lehet a képnek.
+					</p>
+				</div>
+				<div class="row">
+					<div class="col-4">
+						<div class="container">
+							<div class="card">
+								<img class="card-img-top" src="macko.jpeg" alt="macko" style="width: 100%">
+								<div class="card-header"></div>
+								<div class="card-body">
+									Micimackó a Százholdas pagonyban lakik! Nagyon szereti a mézet!
+								</div>
+								<div class="card-footer">
+									Mackó legjobb barátja Malacka!
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-4"></div>
+					<div class="col-4">
+						<div class="container">
+							<div class="card">
+								<div class="card-body">
+									A pitpull veszélyes kutya! Gondolják ezt a 'hozzáértők'! Pedig nem!
+								</div>
+								<div class="card-footer"></div>
+								<img class="card-img-bottom" src="stafford.jpg" alt="stafford" style="width: 100%">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- első feladat vége -->
+
+		<!-- második feladat kezdete DROPDOWN lenyíló gomb -->
+		<div class="container mb-3">
+				<h3 class="h3">Feladat:</h3>
+				<p>Gomb, aminek a lenyíló menüje el van szeparálva a gombtól, 
+				külön rá lehet kattintani a gombra, illetve a lenyíló menü dropdown-ként viselkedhet.</p>
+			<div class="btn-group">
+				<button type="button" class="btn btn-primary">
+				Gomb</button>
+				<button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"></button>
+				<div class="dropdown-menu">
+					<a class="dropdown-item" href="#">sör</a>
+					<a class="dropdown-item" href="#">bor</a>
+					<a class="dropdown-item" href="#">pálinka</a>
+				</div>
+			</div>
+		</div>
+		<!-- DROPDOWN lenyíló menügomb vége -->
+
+		<!-- tetszőleges card képpel -->
+		<div class="container-fluid text-center my-5 py-3" style="background-color: #f0f2f2">
+			<h3 class="h3">Feladat:</h3>
+			<p>Legyen egy tetszőleges card képpel, a szöveg jelenjen meg a kép közepén!</p>
+			<div class="card img-fluid mx-auto my-5" style="width: 400px">
+				<img src="wiki.jpg" alt="wiki" style="width: 100%">
+				<div class="container-fluid">
+					<div class="card-img-overlay d-flex align-items-center justify-content-center" style="height: 100%">
+						<h4 class="card-text text-light border bg-secondary" style="opacity: 0.8; border-radius: 10px;">A Wikipedián mindent megtalálsz!</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- vége -->
+
+		<!-- form-input beviteli mező -->
+		<div class="container my-5" style="width: 50%">
+			<h3 class="he">Feladat</h3>
+			<p>Form-input mező, bejelentkezésre lehet használni!</p>
+			<form action="valami.php">
+			    <div class="form-group">
+			        <label for="email">Email cím:</label>
+			        <input type="email" class="form-control" id="email">
+			    </div>
+			    <div class="form-group">
+			        <label for="pwd">Jelszó:</label>
+			        <input type="password" class="form-control" id="pwd">
+			    </div>
+			    <div class="form-group form-check">
+			        <label class="form-check-label">
+			            <input class="form-check-input" type="checkbox"> Emlékezz rám
+			        </label>
+			    </div>
+			    <button type="submit" class="btn btn-primary">Küldés</button>
+			</form>
+		</div>
+
+		<!-- az oldal alja - footer - , hogy legyen egy kis hely -->
+		<div class="container-fluid pt-3 pb-5" style="height: 100px; background-color: #f0f2f2">
+			<div class="footer mt-5">
+				<h5 class="text-center">Készítette: Zsolt</h5>
+			</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	</body>
+</html>
+
+
